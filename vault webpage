@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+body {
+  font-family: Arial, Helvetica, sans-serif;
+   background-color: #eee;
+}
+
+
+ul{
+list-style-type:none;
+}
+a{text-decoration:none;
+color:black;}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  float:right;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 5px 2px;
+  border-radius: 60%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.button {
+  background-color:  #eee;
+  border: none;
+  color:black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #fff;
+
+}
+
+
+@media screen and (max-width:800px) {
+.topnav.responsive {position: relative;}}
+  
+hgroup{
+padding:0;
+line-height:0.9em;
+margin-left:60px;
+}
+
+ul{
+list-style-type:none;
+margin-left:60%;
+padding:0;
+font-size:1em;
+}
+
+li{
+float:left;
+margin-right:25px;
+}
+
+li a{
+text-decoration:none;
+color:black;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding:10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.accordion {
+   color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-bottom:10px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
+
+
+</style>
+<body>
+
+<div class="topnav">
+<table  bgcolor="white"  width="100%">
+<tr>
+<td>
+<hgroup>
+<h5 style="margin-left:30px;" ><u>THE</u></h5>
+<h1 align="left" ><u> VAULT</u></h1></td>
+</hgroup>
+<td>
+<ul>
+            <h4 align="right" >
+            <li><a href="#">About us</a></li>
+            <li><a href="#">sign in</a></li></h4>
+	  
+ </ul></td>
+ </tr>
+ </table>
+ </div>
+  
+<header>
+  <h2>The Vault's Privacy Policy</h2>
+ <h2>Lorem ipsum dolar sit amet,Consectetur ad</h2>
+</header>
+<div class="section">
+<div class="sec_inner" style="width:95%;
+margin-left:auto; margin-right:auto;">
+ 
+  <p>Effective date:May30,2018<p>
+<p align="justify">Vault Management inc.and its affiliates(collectively,"The Vault,"we","us",or,"our")care about your privacy.This privacy Policy ("policy")describes how The Vault collects,uses,and discloses your personal Information In connection with the use of our websites(" the website services"),applications("apps"),or other service that refers to or links to the policy ,as well as any offiline products ,programs,courses,events and other services("collectively our "Services").Before you use our services ,please read this policy in its entirely.</h3></p>
+
+<p align="justify">By accessing or using our services,you agree to this privacy policy.The provisions contained in this privacy policy supersede previous notices regarding our privacy practices with respect our services.</h3></p>  
+<b>
+
+<button class="accordion">1.INFORMATION WE COLLECT</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">2.INFORMATION YOU PROVIDE US DIRECTLY</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">3.INFORMATION ABOUT YOUR DEVICES(S) AND YOUR USE OF SERVICES</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+<button class="accordion">4.INFORMATION FROM THIRD-PARTY SOURCES</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">5.HOW WE SHARE INFORMATION</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">6.THIRD PARTIES THAT PROVIDE CONTENT OR FUNCTIONALITY ON OUR SERVICES</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">7.INFORMATION SECURITY AND RETENTION</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">8.REVIEWING AND UPDATING YOUR INFORMATION</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">9.INTERNATIONAL TRANSFERS</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">10.OUTPUT RIGHTS</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">11.COLLECTION OF INFORMATION FROM CHILDREN</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">12.CHANGES TO THIS PRIVACY POLICY IN THE FUTURE</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+
+
+
+
+
+
+<br>
+
+
+QUESTIONS OR COMMENTS</b><br><br>
+
+If you have any question or comments regarding our privacy policy,please contact us at:<br><br>
+<b>The Vault,415 Jackson Street,San Francisco,CA94111,<br></b>
+Attention:<b>Legal.</b><br>
+Email:<b>support@thevault.co.</b><br>
+</div>
+</div>
+<br>
+<br>
+<div class="footer">
+<table bgcolor="#666"color="white"  border="0" width="100%">
+<tr>
+<td > 
+<div  class="info" style=" float:left;
+ margin-left:15px;
+ list-style-type:none;>
+ <ul>
+      <li><a href="#">sponsors and partners</a></li><br><br>
+      <li><a href="#">Blog</a></li><br><br>
+      <li><a href="#">Privacy Policy</a></li><br><br>
+©2019VaultManagement Inc.All rights reserved.<br>
+   </ul>
+   </div>
+</td>
+
+
+<td> 
+<div class="info" style="float:center; width:100%;margin:20px 0px 20px 0px;">
+<button class="button">Contact</button><br><br>
+together@thevault.co<br>
++1415-908-1010<br><br>
+415 Jackson Street,<br>
+SanFrancisco,CA 94111<br>
+</div>
+</td>
+
+<td> 
+<div class="info" style="float:right; width:100%"> 
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a></div></td>
+
+</tr>
+</table>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
